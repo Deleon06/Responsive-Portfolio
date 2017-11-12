@@ -1,0 +1,667 @@
+body {
+	
+}
+
+section {
+	overflow: auto;
+	margin: 0px 0px 2% 0px;
+	text-align: center;
+	background-color: white; 
+	border-bottom: 4px solid #ebebeb;
+}
+
+h1 {
+	/* your name */
+	font-size: 28;
+	background-color: #20B2AA;
+	padding: 2%;
+	color: #ebebeb;
+	float: left;
+	margin: auto;
+}
+
+h2 {
+	font-size: 28;
+	border-bottom: 4px solid #ebebeb;
+	padding: 0px 0px 10px;
+	width: 90%;
+	margin: auto;
+}
+
+input {
+	width: 570px;
+	margin-left: 25px;
+	border: 2px solid #ebebeb;
+}
+label{
+	font-family: Arial;
+	padding: 0px 0px 10px;
+	width: 90%;
+	margin: 25px 150px 25px 25px;
+	color: #696969;
+}
+
+h3 {
+	font-size: 24;
+	border-bottom: 2px solid #ebebeb;
+	width: 80%;
+	padding-bottom: 20px;
+	margin: 25 150px 25px 25px;
+}
+
+ul {
+	/* About Portfolio Contact */
+	font-family: sans-serif;
+	color: #ebebeb;
+	text-align: right;
+	font-size: 18;
+	float: right;
+	background-color: white;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.one:hover {
+	color: #A9A9A9;
+}
+
+.two:hover {
+	color: #A9A9A9;
+}
+
+.three:hover {
+	color: #A9A9A9;
+}
+
+.one {
+	border-left: 1px solid #C0C0C0;
+	margin-left: 10px;
+	margin-right: 150px;
+	padding: 5px;
+}
+
+.two {
+	border-left: 1px solid #C0C0C0;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+.three {
+	padding: 5px;	
+}
+
+.big_box {
+	height: 200px;
+	width: 570px;
+}
+
+.pictures {
+	z-index: 1;
+}
+p {
+	color: #C0C0C0;
+	margin: 0px 0px 0px 25px;
+}
+
+article {
+	/* about me */ 
+	border: 2px solid #ebebeb;
+	color:#20B2AA;
+	margin: 0px 20px 0px 150px;
+	background-color: white;
+	float: left;
+	width: 650px;
+	margin-bottom: 2%;
+}
+
+.picture {
+	margin-left: 25px;
+	float: left;	
+}
+
+div {
+	/* connect with me */
+	font-family: "Times New Roman", Times, serif;
+	border: 2px solid #ebebeb;
+	color: #20B2AA;
+	background-color: white;
+	text-align: left;
+	float: left;
+	width: 270px;
+	padding: 0px 0px 50px;
+	margin: 0px 0px 20px 12px;
+}
+
+h4 {
+	/*copy right*/
+	clear: both;
+	border-top: 8px solid #20B2AA;
+	color: #ebebeb;
+	background-color: #696969;
+	font-size: 12;
+	padding: 2% 2% 1% 2%;
+	text-align: center;
+	margin: 2% 0px 0px 0px;
+}
+
+h5 {
+	padding: 10px;
+	color: white;
+	background-color: #20B2AA;
+	margin: 25px;
+	width: 50px;
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+
+/* attempted to add the name of the images with the correct color text box. I had:
+#Hangman {
+	float: left;
+	color: white;
+	margin-left: 10px;
+	width: 270px;
+	position: absolute;
+	color: white;
+	background-color: #20B2AA;
+	padding: 15px;
+	bottom: 10px;
+}
+
+Of course prior to doing that I had i had id set up for every image and text that went along with the images. I also tried groups for this and couldn't get it one.
+
+I was unable to position the image with the text and float it at the same time.  I was only able to do one or the other (Either one image with the correct text
+and format or the floating of all images with no text.
+
+I could of set the height of the profile box and added each image by marginalizing each picture
+and just moving it around the webpage like that and have it completely unrelated to the profile box, but I don't think that was the point of this assignment. 
+
+Was unable to remove the full link indicator from the "About Profile Contact" section, was able to take the underline off by using text-decoration: none; but
+unfortunately it did not remove the link to allow for the hover option that's scripted into this css.
+
+PS. Used Derek Jeter's Biography.  I will continue to work on this.
+*/
+
+
+@media screen and (max-width: 980px) {
+/* here I will be copy and pasting my current style, removing the body size of 1260px so that the media can set the width to 960px */
+
+	body {
+	
+}
+
+section {
+	overflow: auto;
+	margin: 0px 0px 2% 0px;
+	text-align: center;
+	background-color: white; 
+	border-bottom: 4px solid #ebebeb;
+}
+
+h1 {
+	/* your name */
+	font-size: 28;
+	background-color: #20B2AA;
+	padding: 2%;
+	color: #ebebeb;
+	float: left;
+	margin: auto;
+}
+
+h2 {
+	font-size: 28;
+	border-bottom: 4px solid #ebebeb;
+	padding: 0px 0px 10px;
+	width: 90%;
+	margin: auto;
+}
+
+input {
+	width: 570px;
+	margin-left: 25px;
+	border: 2px solid #ebebeb;
+}
+label{
+	font-family: Arial;
+	padding: 0px 0px 10px;
+	width: 90%;
+	margin: 25px 150px 25px 25px;
+	color: #696969;
+}
+
+h3 {
+	font-size: 24;
+	border-bottom: 2px solid #ebebeb;
+	width: 80%;
+	padding-bottom: 20px;
+	margin: 25 150px 25px 25px;
+}
+
+ul {
+	/* About Portfolio Contact */
+	font-family: sans-serif;
+	color: #ebebeb;
+	text-align: right;
+	font-size: 18;
+	float: right;
+	background-color: white;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.one:hover {
+	color: #A9A9A9;
+}
+
+.two:hover {
+	color: #A9A9A9;
+}
+
+.three:hover {
+	color: #A9A9A9;
+}
+
+.one {
+	border-left: 1px solid #C0C0C0;
+	margin-left: 10px;
+	margin-right: 150px;
+	padding: 5px;
+}
+
+.two {
+	border-left: 1px solid #C0C0C0;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+.three {
+	padding: 5px;	
+}
+
+.big_box {
+	height: 200px;
+	width: 570px;
+}
+
+.pictures {
+	z-index: 1;
+}
+p {
+	color: #C0C0C0;
+	margin: 0px 0px 0px 25px;
+}
+
+article {
+	/* about me */ 
+	border: 2px solid #ebebeb;
+	color:#20B2AA;
+	margin: auto;
+	background-color: white;
+	float: none;
+	width: 650px;
+	margin-bottom: 2%;
+}
+
+.picture {
+	margin-left: 25px;
+	float: left;	
+}
+
+div {
+	/* connect with me */
+	font-family: "Times New Roman", Times, serif;
+	border: 2px solid #ebebeb;
+	color: #20B2AA;
+	background-color: white;
+	text-align: left;
+	float: none;
+	width: 270px;
+	padding: 0px 0px 50px;
+	margin: auto;
+}
+
+h4 {
+	/*copy right*/
+	clear: both;
+	border-top: 8px solid #20B2AA;
+	color: #ebebeb;
+	background-color: #696969;
+	font-size: 12;
+	padding: 2% 2% 1% 2%;
+	text-align: center;
+	margin: 2% 0px 0px 0px;
+}
+
+h5 {
+	padding: 10px;
+	color: white;
+	background-color: #20B2AA;
+	margin: 25px;
+	width: 50px;
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+
+@media screen and (max-width: 768px) {
+
+		body {
+		max-width: 768px
+	}
+		section {
+		overflow: auto;
+		margin: 0px 0px 2% 0px;
+		text-align: center;
+		background-color: white; 
+		border-bottom: 4px solid #ebebeb;
+	}
+
+	h1 {
+		/* your name */
+		font-size: 28;
+		background-color: #20B2AA;
+		padding: 2%;
+		color: #ebebeb;
+		float: left;
+		margin: auto;
+	}
+
+	h2 {
+		font-size: 28;
+		border-bottom: 4px solid #ebebeb;
+		padding: 0px 0px 10px;
+		width: 90%;
+		margin: 25px 150px 25px 25px;
+	}
+
+	input {
+		width: 570px;
+		margin-left: 25px;
+		border: 2px solid #ebebeb;
+	}
+	label{
+		font-family: Arial;
+		padding: 0px 0px 10px;
+		width: 90%;
+		margin: 25px 150px 25px 25px;
+		color: #696969;
+	}
+
+	h3 {
+		font-size: 24;
+		border-bottom: 2px solid #ebebeb;
+		width: 80%;
+		padding-bottom: 20px;
+		margin: 25 150px 25px 25px;
+	}
+
+	ul {
+		/* About Portfolio Contact */
+		font-family: sans-serif;
+		color: #ebebeb;
+		text-align: right;
+		font-size: 18;
+		float: right;
+		background-color: white;
+	}
+
+	a:link {
+		text-decoration: none;
+	}
+
+	.one:hover {
+		color: #A9A9A9;
+	}
+
+	.two:hover {
+		color: #A9A9A9;
+	}
+
+	.three:hover {
+		color: #A9A9A9;
+	}
+
+	.one {
+		border-left: 1px solid #C0C0C0;
+		margin-left: 10px;
+		margin-right: 100px;
+		padding: 5px;
+	}
+
+	.two {
+		border-left: 1px solid #C0C0C0;
+		margin-left: 10px;
+		padding: 5px;
+	}
+
+	.three {
+		padding: 5px;	
+	}
+
+	.big_box {
+		height: 200px;
+		width: 570px;
+	}
+
+	.pictures {
+		z-index: 1;
+	}
+	p {
+		color: #C0C0C0;
+		margin: 0px 0px 0px 25px;
+	}
+
+	article {
+		/* about me */ 
+		border: 2px solid #ebebeb;
+		color:#20B2AA;
+		margin: auto;
+		background-color: white;
+		float: left;
+		width: auto;
+		margin-bottom: 2%;
+	}
+
+	.picture {
+		margin-left: 25px;
+		float: left;	
+	}
+
+	div {
+		/* connect with me */
+		font-family: "Times New Roman", Times, serif;
+		border: 2px solid #ebebeb;
+		color: #20B2AA;
+		background-color: white;
+		text-align: left;
+		width: 270px;
+		padding: 0px 0px 50px;
+		margin: auto;
+	}
+
+	h4 {
+		/*copy right*/
+		clear: both;
+		border-top: 8px solid #20B2AA;
+		color: #ebebeb;
+		background-color: #696969;
+		font-size: 12;
+		padding: 2% 2% 1% 2%;
+		text-align: center;
+		margin: 2% 0px 0px 0px;
+	}
+
+	h5 {
+		padding: 10px;
+		color: white;
+		background-color: #20B2AA;
+		margin: 25px;
+		width: 50px;
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+
+} 
+	 		
+@media screen and (max-width: 640px) {
+		body {
+		max-width: 640px
+	}
+	section {
+		overflow: auto;
+		margin: 0px 0px 2% 0px;
+		text-align: center;
+		background-color: white; 
+		border-bottom: 4px solid #ebebeb;
+		position: static;
+	}
+
+	h1 {
+		/* your name */
+		font-size: 28;
+		background-color: #20B2AA;
+		padding: 2%;
+		color: #ebebeb;
+		float: left;
+		margin: auto;
+	}
+
+	h2 {
+		font-size: 28;
+		border-bottom: 4px solid #ebebeb;
+		padding: 0px 0px 10px;
+		width: 90%;
+		margin: 25px 150px 25px 25px;
+	}
+
+	input {
+		width: 570px;
+		margin-left: 25px;
+		border: 2px solid #ebebeb;
+	}
+	label{
+		font-family: Arial;
+		padding: 0px 0px 10px;
+		width: 90%;
+		margin: 25px 150px 25px 25px;
+		color: #696969;
+	}
+
+	h3 {
+		font-size: 24;
+		border-bottom: 2px solid #ebebeb;
+		width: 80%;
+		padding-bottom: 20px;
+		margin: 25 150px 25px 25px;
+	}
+
+	ul {
+		/* About Portfolio Contact */
+		font-family: sans-serif;
+		color: #ebebeb;
+		text-align: right;
+		font-size: 18;
+		float: right;
+		background-color: white;
+	}
+
+	a:link {
+		text-decoration: none;
+	}
+
+	.one:hover {
+		color: #A9A9A9;
+	}
+
+	.two:hover {
+		color: #A9A9A9;
+	}
+
+	.three:hover {
+		color: #A9A9A9;
+	}
+
+	.one {
+		border-left: 1px solid #C0C0C0;
+		margin-left: 10px;
+		margin-right: 150px;
+		padding: 5px;
+	}
+
+	.two {
+		border-left: 1px solid #C0C0C0;
+		margin-left: 10px;
+		padding: 5px;
+	}
+
+	.three {
+		padding: 5px;	
+	}
+
+	.big_box {
+		height: 200px;
+		width: 570px;
+	}
+
+	.pictures {
+		z-index: 1;
+	}
+	p {
+		color: #C0C0C0;
+		margin: 0px 0px 0px 25px;
+	}
+
+	article {
+		/* about me */ 
+		border: 2px solid #ebebeb;
+		color:#20B2AA;
+		margin: auto;
+		background-color: white;
+		width: auto;
+		margin-bottom: 2%;
+	}
+
+	.picture {
+		margin-left: 25px;
+		float: left;	
+	}
+
+	div {
+		/* connect with me */
+		font-family: "Times New Roman", Times, serif;
+		border: 2px solid #ebebeb;
+		color: #20B2AA;
+		background-color: white;
+		text-align: left;
+		float: auto;
+		width: 270px;
+		padding: 0px 0px 50px;
+		margin: auto;
+	}
+
+	h4 {
+		/*copy right*/
+		clear: both;
+		border-top: 8px solid #20B2AA;
+		color: #ebebeb;
+		background-color: #696969;
+		font-size: 12;
+		padding: 2% 2% 1% 2%;
+		text-align: center;
+		margin: 2% 0px 0px 0px;
+	}
+
+	h5 {
+		padding: 10px;
+		color: white;
+		background-color: #20B2AA;
+		margin: 25px;
+		width: 50px;
+		font-family: sans-serif;
+		font-weight: lighter;
+	}
+
+} 
+
